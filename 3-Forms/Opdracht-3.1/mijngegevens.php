@@ -7,11 +7,11 @@
     <title>Document</title>
 </head>
 <body>  
-        <?php echo $_GET["voornaam"]; ?><br>
-        <?php echo $_GET["achternaam"]; ?><br>
-        <?php echo $_GET["klas"]; ?><br>
-        <?php echo $_GET["leeftijd"]; ?><br>
-        <?php echo $_GET["adres"]; ?><br>
-        <?php echo $_GET["plaatsnaam"]; ?><br>
+        <?php echo $_POST["voornaam"]; ?><br>
+        <?php echo $_POST["achternaam"]; ?><br>
+        <?php echo $_POST["klas"]; ?><br>
+        <?php echo $_POST["leeftijd"]; ?><br>
+        <?php echo $_POST["adres"]; ?><br>
+        <?php echo $_POST["plaatsnaam"]; ?><br>
 </body>
 </html>
